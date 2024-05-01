@@ -1,0 +1,10 @@
+{
+  "include": ["./src"],
+  "compilerOptions": {
+    "outDir": "dist/",
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "strict": true,
+    "typeRoots": ["./node_modules/@types", "./node_modules/@figma"]
+  }
+}
